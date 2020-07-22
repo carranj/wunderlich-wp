@@ -20,3 +20,6 @@ wp-trackback.php
 xmlrpc.php
 index.php
 license.txt
+
+# MAC defaults
+.DS_Store

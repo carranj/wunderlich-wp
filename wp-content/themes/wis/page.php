@@ -1,8 +1,13 @@
 <?php get_header(); ?>
-<div <?php post_class('container'); ?>>
-	<div class="jumbotron">
-		<h1 class="text-center"><?php the_title(); ?></h1>
+<main>
+	<div class="tint">
+		<div class="internal-jumbotron">
+			<div class="container">
+				<h1><?php the_title(); ?></h1>
+			</div>
+		</div>
 	</div>
-</div>
+</main>
+
 
 <?php get_footer(); ?>
