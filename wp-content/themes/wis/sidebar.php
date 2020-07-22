@@ -1,14 +1,4 @@
 <div class="sidebar">
-<nav class="d-none d-md-block sidebar">
-        <?php
-            $args = array(
-                'menu'      => 'menu-1',
-                'container' => 'ul',
-                'menu_class'      => 'nav flex-column',
-            );
-            wp_nav_menu( $args );
-        ?>
-</nav>
 
 	<?php if ( ! dynamic_sidebar ('page') ): ?>
 
