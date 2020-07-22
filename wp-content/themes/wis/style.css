@@ -107,23 +107,35 @@ nav ul li a {
   font-weight: 200;
   transition: all 0.15s linear;
 }
-nav ul li ul {
-  display: none;
+nav ul li ul.sub-menu {
+  position: absolute;
+  opacity: 0;
+  transition: all 0.15s linear;
+  top: 50px;
+  width: 250px;
+  height: 0px;
+  display: block;
+}
+nav ul li ul.sub-menu li {
+  display: block;
+  border-bottom: 1px solid #ffffff;
+}
+nav ul li ul.sub-menu li a {
+  text-align: left;
+  padding: 8px 15px;
+  color: #ffffff;
 }
 nav ul li:hover ul.sub-menu {
+  opacity: 1;
   margin-block-start: 0em;
   margin-block-end: 0em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 0px;
-  display: block;
-  position: absolute;
-  top: 50px;
-  width: 250px;
+  height: auto;
 }
 nav ul li:hover ul.sub-menu li {
   background: #707070;
-  display: block;
   transition: 0.15s all linear;
 }
 nav ul li:hover ul.sub-menu li:hover {
@@ -131,11 +143,6 @@ nav ul li:hover ul.sub-menu li:hover {
 }
 nav ul li:hover ul.sub-menu li:hover a {
   text-decoration: none;
-}
-nav ul li:hover ul.sub-menu li a {
-  padding: 8px 15px;
-  color: #ffffff;
-  text-align: left;
 }
 nav ul li:hover a {
   text-decoration: none;
