@@ -1,0 +1,22 @@
+# Wordpress defaults
+wp-admin/*
+wp-includes/*
+wp-content/themes/twenty*
+wp-content/plugins
+wp-content/uploads
+wp-activate.php
+wp-blog-header.php
+wp-comments-post.php
+wp-config.php
+.htaccess
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+index.php
+license.txt
