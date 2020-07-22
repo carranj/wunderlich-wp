@@ -16,7 +16,7 @@
   <header>
     <div class="container">
       <div class="logo-container">
-        logo area
+        <a href="<?php echo site_url('/'); ?>"><img src="http://localhost/wis/wp-content/uploads/2020/07/logo.png" alt=""></a>
       </div>
       <nav>
         <?php

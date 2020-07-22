@@ -55,20 +55,75 @@ header{
 }
 .logo-container{
     width:$logo-container-width;
-    display:inline-block;
     margin: 0;
+    padding:5px 0;
+    float:left;
 }
 nav{
-    width:calc(100% - $logo-container-width);
-    display:inline-block;
+    text-align: center;
+    .nav{
+        display:block;
+    }
+    width:calc(100% - #{$logo-container-width});
+    display: inline-block;
     ul{
         margin: 0;
         padding: 0;
         list-style: none;
+        width:100%;
         li{
-            display: inline-block;
+            display:inline-block;
+            margin:0;
             a {
                 text-decoration: none;
+                padding:12px 20px;
+                display:block;
+                font-size:18px;
+                color:#ffffff;
+                font-weight:200;
+                transition:all .15s linear;
+            }
+            ul{
+                display:none;
+            }
+            &:hover{
+                ul{
+                    &.sub-menu{
+                        margin-block-start: 0em;
+                        margin-block-end: 0em;
+                        margin-inline-start: 0px;
+                        margin-inline-end: 0px;
+                        padding-inline-start: 0px;
+                        display:block;
+                        position: absolute;
+                        top:50px;
+                        width:250px;
+                        li{
+                            background:#707070;
+                            display:block;
+                            transition:.15s all linear;
+                            &:hover{
+                                background:darken(#007070, 25%);
+                                a{
+                                    text-decoration: none;
+                                }
+                            }
+                            a{
+                                padding:8px 15px;
+                                color:#ffffff;
+                                text-align: left;
+                            }
+                        }
+                    }
+                    
+                }
+                
+            }
+            &:hover{
+                a{
+                    text-decoration:none;
+                    color:#cecece
+                }
             }
         }
     }
