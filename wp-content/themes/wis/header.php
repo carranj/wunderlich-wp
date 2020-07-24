@@ -16,7 +16,7 @@
   <header>
     <div class="container">
       <div class="logo-container">
-        <a href="<?php echo site_url('/'); ?>"><img src="http://josecarranco.com/wis/wp-content/uploads/2020/07/logo.png" alt=""></a>
+        <a href="<?php echo site_url('/'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/Wildcat_Logo.svg" alt=""></a>
       </div>
       <nav>
         <?php

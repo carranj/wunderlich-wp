@@ -103,7 +103,7 @@ header {
 }
 
 .logo-container {
-  width: 95px;
+  width: 75px;
   margin: 0;
   padding: 5px 0;
   float: left;
@@ -111,7 +111,7 @@ header {
 
 nav {
   text-align: center;
-  width: calc(100% - 95px);
+  width: calc(100% - 75px);
   display: inline-block;
 }
 nav .nav {
@@ -129,7 +129,7 @@ nav ul li {
 }
 nav ul li a {
   text-decoration: none;
-  padding: 12px 20px;
+  padding: 20px;
   display: block;
   font-size: 18px;
   color: #ffffff;
