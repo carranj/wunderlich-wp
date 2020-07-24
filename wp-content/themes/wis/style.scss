@@ -38,6 +38,10 @@ body{
 }
 main {
     flex-grow: 1;
+    img{
+        width:100%;
+        height:auto;
+      }
 }
 header, main, footer {
     flex-shrink: 0;
@@ -53,12 +57,37 @@ footer{
         color:#ffffff;
     }
 }
-h1{
+h1, h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
+h2{
+    font-size:36px;
+}
 p{
     color:#707070;
+}
+ul{
+    &#breadcrumbs{
+        font-weight: 300;
+        font-size:18px;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0px;
+        list-style-type:none;
+        margin:15px 0;
+        li{
+            float: left;
+            .separator{
+                margin: 0 6px;
+            }
+            a{
+                color:#707070;
+            }
+        }
+    }
 }
 
 /**************************************************************************************************
@@ -194,7 +223,7 @@ Internal
         background: linear-gradient(
             rgba(63,73,76, 0.85), 
             rgba(63,73,76, 0.85)
-          ),url('http://localhost/wis/wp-content/uploads/2020/07/internal-background.jpg');
+          ),url('http://josecarranco.com/wis/wp-content/uploads/2020/07/internal-background.jpg');
         height:140px;
         background-position:center 15%;
         background-size: 100%;

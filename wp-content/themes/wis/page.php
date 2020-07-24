@@ -7,6 +7,10 @@
 			</div>
 		</div>
 	</div>
+	<div class="container">
+	<?php the_breadcrumb(); ?>
+		<?php get_template_part( 'page-templates/flexible_content/flexible_content' ); ?>
+	</div>
 </main>
 
 

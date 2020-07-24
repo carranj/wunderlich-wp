@@ -21,5 +21,10 @@ xmlrpc.php
 index.php
 license.txt
 
+#Plugin addons
+wp-content/ai1wm-backups/
+
 # MAC defaults
 .DS_Store
+wp-config-prod.php
+

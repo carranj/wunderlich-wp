@@ -1,6 +1,6 @@
 <?php  get_header(); ?>
 <main>
-    <section class="home-intro" style="background: url(http://localhost/wis/wp-content/uploads/2020/07/intro-photo.png);">
+    <section class="home-intro" style="background: url(http://josecarranco.com/wis/wp-content/uploads/2020/07/intro-photo.png);">
         <div class='home-jumbotron col-md-12'>
             <h1>Welcome to Wunderlich Band</h1>
             <p>1st Division UIL Varsity Band Stage Performance</p>

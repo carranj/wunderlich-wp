@@ -2,7 +2,7 @@
     if( get_row_layout() == 'two-col_wysiwyg'):
         // Columns
         $column_sizes= get_sub_field('column_sizes');
-        $has_title = get_sub_field('has_title_2');
+        $has_title = get_sub_field('has_title_2_column');
         $col_arr = explode (",", $column_sizes);
         $col1_size = $col_arr[0];
         $col2_size = $col_arr[1];
