@@ -67,6 +67,9 @@ h2{
 p{
     color:#707070;
 }
+strong{
+    font-weight: 800;
+}
 ul{
     &#breadcrumbs{
         font-weight: 300;
@@ -79,7 +82,7 @@ ul{
         list-style-type:none;
         margin:15px 0;
         li{
-            float: left;
+            display: inline-block;
             .separator{
                 margin: 0 6px;
             }
@@ -132,7 +135,7 @@ nav{
                     position: absolute;
                     opacity: 0;
                     transition:all .15s linear;
-                    top:50px;
+                    top:67px;
                     width:250px;
                     height:0px;
                     display:block;
@@ -235,3 +238,23 @@ Internal
         }
     }
 }
+/**************************************************************************************************
+Gallery
+***************************************************************************************************/
+.my-gallery {
+    width: 100%;
+    float: left;
+  }
+  .my-gallery img {
+    width: 100%;
+    height: auto;
+  }
+  .my-gallery figure {
+    display: block;
+    float: left;
+    margin: 0 5px 5px 0;
+    width: 150px;
+  }
+  .my-gallery figcaption {
+    display: none;
+  }
