@@ -27,7 +27,7 @@
                 <h2><?php echo $group_title; ?></h2>
                 <?php
                 if( $images ): ?>
-                    <div class="my-gallery">
+                    <div class="my-gallery mb-4">
                     <?php foreach( $images as $image ): ?>
                         <figure itemprop="associatedMedia">
                         <a href="<?php echo esc_url($image['url']); ?>" itemprop="contentUrl" data-size="<?php echo $image['width']; ?>x<?php echo $image['height']; ?>">

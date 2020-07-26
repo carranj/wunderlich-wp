@@ -23,6 +23,7 @@ license.txt
 
 #Plugin addons
 wp-content/ai1wm-backups/
+wp-content/ewww
 
 # MAC defaults
 .DS_Store

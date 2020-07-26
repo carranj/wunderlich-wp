@@ -1,4 +1,29 @@
 jQuery(document).ready(function($) {
+    // START Vertical align home jumbotron
+    var homeJumboton = $('.home-jumbotron');
+    var jHeight = homeJumboton.height();
+    
+    homeJumboton.css('margin-top', `-${(jHeight/2)+5}px`);
+    hasActive = $("li.menu-item-has-children a").parent().hasClass("active");
+    hasInactive = $("li.menu-item-has-children a").parent().hasClass("inactive");
+    // END Vertical align home jumbostron
+
+    // START Hamburger Menu display
+    $("#hamburger-menu").click(function(){
+        $("nav .nav").toggleClass("active");
+    });
+    $("li.menu-item-has-children a").click(function(e){
+
+        if($(this).parent().hasClass("active")){
+            $(this).parent().removeClass('active');
+        } else {
+            $(this).parent().addClass('active');
+            
+        }
+        
+    });
+    // END Hamburger Menu display
+
     // START Photo Gallery
     var initPhotoSwipeFromDOM = function(gallerySelector) {
 
